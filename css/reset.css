@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #5b5b5b;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, p{
+    margin-trim: block;
+}
+
+h1{
+    font-size: var(--heading-one);
+}
+
+h2{
+    font-size: var(--heading-two);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: var(--heading-three);
+    text-transform: capitalize;
+}
+
+h4{
+    font-size: var(--heading-four);
+}
+
+h5{
+    font-size: var(--heading-five);
+}
+
+h6{
+    font-size: var(--heading-six);
+}
+
+span{
+    display: inline-block;
+}
+
+hr{
+    border-width: 0.05rem;
+    border-style: solid;
+    border-block-start-color: #18629F;
+    border-block-end-color: hsl(207, 74%, 90%);
+    border-inline-color: hsl(207, 74%, 90%);
+    border-radius: 1rem;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0px;
+}
+
+input, select{
+    padding-block: var(--field-padding-block);
+    padding-inline: var(--field-padding-inline);
+    border: none;
+    border-radius: var(--field-border-radius);
+    font-size: 0.8rem;
+    color: gray;
+    
+    /* &.bg{
+        background-color: var(--field-bg);
+    }
+    
+    &.shadow{
+        box-shadow: 2px 2px var(--field-shadow);
+    } */
+    
+    &.full-width{
+        width: 100%;
+    }
+}
+
+button{
+    padding-block: var(--field-padding-block);
+    padding-inline: var(--field-padding-inline);
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: bold;
+
+    &.btn-blue{
+        background-color: var(--blue-scheme);
+        color: white;
+    }
+}
+
+select{
+    appearance: none;
+    -webkit-appearance: none; /* For Safari/Chrome */
+    -moz-appearance: none; /* For Firefox */
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}

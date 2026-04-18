@@ -1,0 +1,61 @@
+
+:root{
+    /* Color Scheme */
+    --green-scheme: #008000;
+    --blue-scheme: #18629F;
+    --blue-scheme-thin: hsl(207, 74%, 90%);
+
+    /* Section Padding */
+    --section-padding-inline: 6rem;
+    --section-padding-block: 6rem;
+
+    --section-padding-inline-tab: 5cqw;
+    --section-padding-block-tab: 8cqw;
+
+    --section-padding-inline-mob: 5cqw;
+    --section-padding-block-mob: 8cqw;
+    --section-padding-mob: 5cqw;
+
+    /* Section Gap */
+    --section-gap: 6rem;
+
+    --section-gap-tab: 5cqw;
+
+    --section-gap-mob: 5cqw;
+    --section-gap-mob-x2: 8cqw;
+
+    /* Section Background Colors */
+    --section-bg-light: #F6F9FB;
+    --section-bg-gray: #F9F9F9;
+    --section-bg-lightblue: #F6F9FB;
+
+    /* Heading Reset */
+    --heading-one: 3.5em;
+    --heading-two: 3em;
+    --heading-three: 2em;
+    --heading-four: 1.5em;
+    --heading-five: 1em;
+    --heading-six: 0.5em;
+
+    /* Gradient */
+    --gradient-lines: #18629F;
+
+    /* Input, Select */
+    --field-bg: hsl(0, 0%, 100%);
+    --field-shadow: hsl(0, 0%, 90%);
+    --field-hover: hsl(0, 0%, 98%);
+    --field-padding-block: 1.2rem;
+    --field-padding-inline: 1.5rem;
+    --field-border-radius: 0.8rem;
+
+    /* Colors */
+    --color-gold: #ffcc14;
+    --pagination-dot: #757F78;
+
+    /* Graphics */
+    --line-width: 1em;
+    --circle-width: 8em;
+    --x-width: 3em;
+    --tube-top-width: 25rem;
+    --tube-bottom-width: 16rem;
+}

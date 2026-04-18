@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delight Learning</title>
+    
+    <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/20c3a2a447.js" crossorigin="anonymous"></script>
+
+    <!-- This order ensures the style doesn't break -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/graphics.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body class="flex">
+
+    <div class="indicator"></div>
+
+    <div class="container">
+
+        <header class="flex">
+
+            <img src="icons/logo.svg" alt="delight learning logo" class="logo">
+
+            <nav>
+                <input type="checkbox" name="" id="check">
+                <label for="check" class="overlay"></label>
+
+                <label for="check">
+                    <span class="control open">&#9776;</span>
+                </label>
+
+                <div class="side-bar">
+                    <label for="check">
+                        <span class="control close">&#10006;</span>
+                    </label>
+
+                    <ul class="flex menu-links">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <!-- hero section -->
+            <section class="main-section hero flex col center">
+
+                <h1>
+                    <span>Develop
+
+                        <span class="graphics line top">
+                            <img src="graphics/line-green.svg" alt="">
+                        </span>
+                    </span> & practice <span class="green">skills</span> that offer a lateral & vertical advancement in your <span class="no-text-wrap"><span class="green">career</span>.</span>
+                </h1>
+
+                <p>
+                    We have varied offerings at individual and enterprise-wide levels for competency development & skill enhancements, which enable you to meet current day challenges of project execution with confidence.
+                </p>
+
+                <form action="" class="flex elevate light low">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="" id="" placeholder="Search for a Course" class="full-width">
+
+                    <button type="submit" class="btn-blue">Search</button>
+                </form>
+
+                <div class="lady flex">
+                    <div class="circle">
+                        <span>
+                            <span></span>
+                        </span>
+                    </div>
+
+                    <div class="lady-img">
+                        <img src="images/lady.svg" alt="a young lady">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Course, Learners, Trainings section -->
+            <section class="main-section discipleship grid ">
+
+                <div class="card elevate light high">
+                    <div class="img-con flex">
+                        <img src="icons/courses.svg" alt="courses icon">
+                    </div>
+
+                    <div class="learning">
+                        <span class="count">45+</span>
+                        <span class="type">Courses</span>
+                    </div>
+                </div>
+
+                <div class="card elevate light high">
+                    <div class="img-con flex">  
+                        <img src="icons/learners.svg" alt="learners icon">
+                    </div>
+
+                    <div class="learning">
+                        <span class="count">20K+</span>
+                        <span class="type">Learners</span>
+                    </div>
+                </div>
+
+                <div class="card elevate light high">
+                    <div class="img-con flex">
+                        <img src="icons/trainings.svg" alt="trainings icon">
+                    </div>
+
+                    <div class="learning">
+                        <span class="count">1250+</span>
+                        <span class="type">Trainings</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Most popular course -->
+            <section class="main-section popular flex col ">
+
+                <h2 class="blue">
+                    <span>Most Popular Courses
+                        <span class="graphics line top">
+                            <img src="graphics/line-blue.svg" alt="">
+                        </span>  
+
+                    </span>
+                </h2>
+
+                <form action="" class="flex">
+
+                    <label class="select">
+                        <select name="" id="">
+                            <option value="devops-master">Devops Master</option>
+                        </select>
+
+                        <span class="dropdown">&#x25BE;</span>
+                    </label>
+
+                    <label class="select">
+                        <select name="" id="">
+                            <option value="online-training">Online Training</option>
+                        </select>
+
+                        <span class="dropdown">&#x25BE;</span>
+                    </label>
+                    
+                    <label class="select">
+                        <select name="" id="">
+                            <option value="united-kingdom">United Kingdom</option>
+                        </select>
+
+                        <span class="dropdown">&#x25BE;</span>
+                    </label>
+
+                    <label class="select">
+                        <select name="" id="">
+                            <option value="london">London</option>
+                        </select>
+
+                        <span class="dropdown">&#x25BE;</span>
+                    </label>
+
+                    <label class="select">
+                        <select name="" id="">
+                            <option value="june">June</option>
+                        </select>
+
+                        <span class="dropdown">&#x25BE;</span>
+                    </label>
+
+                    <button type="submit" class="btn-blue">Go</button>
+
+                </form>
+
+                <div class="cards grid no-scrollbar">
+
+                    <div class="card elevate light low">
+                        <img class="course-image" src="images/popular.svg" alt="most popular courses image">
+                        <div class="course-detail flex">
+                            <span class="course-name">Devops Master</span>
+                            <span class="course-fee">&#x24;50</span>
+                        </div>
+                        <hr>
+                        <div class="course-student flex">
+                            <div class="bio flex">
+                                <img class="profile" src="profile/alicia-1.svg" alt="alicia kate 1 profile image">
+                                <span class="name">Alicia Kate</span>
+                            </div>
+
+                            <div class="rating flex">
+                                <i class="fa-solid fa-star flex"></i>
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card elevate light low">
+                        <img class="course-image" src="images/popular.svg" alt="most popular courses image">
+                        <div class="course-detail flex">
+                            <span class="course-name">Devops Master</span>
+                            <span class="course-fee">&#x24;50</span>
+                        </div>
+                        <hr>
+                        <div class="course-student flex">
+                            <div class="bio flex">
+                                <img class="profile" src="profile/alicia-2.svg" alt="alicia kate 1 profile image">
+                                <span class="name">Alicia Kate</span>
+                            </div>
+
+                            <div class="rating flex">
+                                <i class="fa-solid fa-star flex"></i>
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card elevate light low">
+                        <img class="course-image" src="images/popular.svg" alt="most popular courses image">
+                        <div class="course-detail flex">
+                            <span class="course-name">Devops Master</span>
+                            <span class="course-fee">&#x24;50</span>
+                        </div>
+                        <hr>
+                        <div class="course-student flex">
+                            <div class="bio flex">
+                                <img class="profile" src="profile/alicia-3.svg" alt="alicia kate 1 profile image">
+                                <span class="name">Alicia Kate</span>
+                            </div>
+
+                            <div class="rating flex">
+                                <i class="fa-solid fa-star flex"></i>
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pagination-dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+
+             </section>
+
+             <!-- Delight Learning -->
+             <section class="main-section delight flex col ">
+                
+                <h2>What our Learners say about <br>
+
+                    <span class="green">
+                        <span>DelightLearning
+
+                            <span class="graphics line bottom">
+                                <img src="graphics/line-green.svg" alt="">
+                            </span>
+                        </span>
+                    </span>
+                </h2>
+
+                <div class="articles grid scroll">
+
+                    <article class="grid elevate light low">
+                        <span class="quote flex">&#10077;</span>
+                        <p class="comment">
+                            The trainer conveyed Scrum concepts engaging audience in discussions, providing real time examples across industries effectively. He was approachable and provided insights.
+                        </p>
+                        <p class="user flex">
+                            <img src="profile/neeraj.svg" alt="">
+                            Neeraj Seth - Senior Executive, KPMG
+                        </p>
+                    </article>
+
+                    <article class="grid elevate light low">
+                        <span class="quote flex">&#10077;</span>
+                        <p class="comment">
+                            A step towards understanding and implementing Scrum process framework across organization. Thanks for delivering a insightful training and clearly stating what are Do's and Don'ts of a Scrum Master.
+                        </p>
+                        <p class="user flex">
+                            <img src="profile/akanchha.svg" alt="">
+                            Akanchha Sehgal - Program Director, Taisys
+                        </p>
+                    </article>
+
+                    <article class="grid elevate light low">
+                        <span class="quote flex">&#10077;</span>
+                        <p class="comment">
+                            Awesome Training, Exceptional Energy to the point, Loved and enjoyed 4 days training.
+                        </p>
+                        <p class="user flex">
+                            <img src="profile/chirag.svg" alt="">
+                            Chirag - Polycom
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="pagination-dots">
+                    <div class="dot active green"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+
+             </section>
+
+             <!-- Blogs -->
+             <section class="main-section blogs flex col">
+
+                <h2 class="blue">
+                    <span>Blogs
+                        <span class="graphics line top">
+                            <img src="graphics/line-blue.svg" alt="">
+                        </span>
+                    </span>
+                </h2>
+
+                <div class="articles grid se scroll">
+
+                    <article class="grid">
+                        <img src="images/laptop-glass.svg" alt="">
+                        <h3>
+                            Good but not great.. Overcoming the Indian
+                        </h3>
+                        <p>
+                             Madhur Kathuria - 26 Sept, 2013
+                        </p>
+                        <hr>
+                        <p>
+                            Yes yes , umpteen authors have written kilos of pages debating on this topic and the anti-outsourcing doyens will be singing paeans' one too many about how India and Indians are so downmarket , quality haters and just take everything for granted..This rumbling is not about what we already know about, this is about how we can change one and for all.
+                        </p>
+                    </article>
+
+                    <article class="grid">
+                        <img src="images/laptop-hand.svg" alt="">
+                        <h3>
+                            The Personal Agile Manifesto
+                        </h3>
+                        <p>
+                            Madhur Kathuria - 8 Oct, 2013
+                        </p>
+                        <hr>
+                        <p>
+                            I did talk about Agile being a guiding philosophy rather than merely a framework for change in my past posts.
+                            <br><br>
+                            The trigger to change is not only driven by the events at your work place but also by the will.
+                        </p>
+                    </article>
+
+                    <article class="grid">
+                        <img src="images/pen-paper.svg" alt="">
+                        <h3>An Agile Enterprise ???</h3>
+                        <p>
+                            Madhur Kathuria - 14 Jan, 2015
+                        </p>
+                        <hr>
+                        <p>
+                            I have been hearing from various associates about Agile being a target for 2015 in their organizations. Program managers have been assigned to the task of managing the Agile transformation. Endless millions have been committed to 'certifying' the teams to be more Agile. 
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="pagination-dots flex hide">
+                    <span class="dot active green"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+             </section>
+
+             <!-- Upcoming -->
+             <section class="main-section upcoming flex col">
+
+                <h2>Upcoming Trainings</h2>
+
+                <div class="trainings grid scroll">
+
+                    <div class="training flex col elevate light low">
+                        <p class="title">PSPO (Professional Scrum Product Owner)</p>
+                        <p class="date">29th - 31st July</p>
+                    </div>
+
+                    <div class="training flex col elevate light low">
+                        <p class="title">PSPO (Professional Scrum Product Owner)</p>
+                        <p class="date">29th - 31st July</p>
+                    </div>
+
+                    <div class="training flex col elevate light low">
+                        <p class="title">PSPO (Professional Scrum Product Owner)</p>
+                        <p class="date">29th - 31st July</p>
+                    </div>
+
+                </div>
+
+                <div class="pagination-dots flex">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+             </section>
+
+             <!-- Library -->
+             <section class="main-section library flex col ">
+                    
+                <span class="graphics circle">
+                    <img src="graphics/circle.svg" alt="">
+                </span>
+
+                <h2>Library</h2>
+
+                <div class="categories grid">
+
+                    <div class="category elevate dark low">
+                        <img src="icons/corporate.svg" alt="">
+                        <p>Corporate Brochure</p>
+                    </div>
+
+                    <div class="category elevate dark low">
+                        <img src="icons/brochure.svg" alt="">
+                        <p>Courses Brochure</p>
+                    </div>
+
+                    <div class="category elevate dark low">
+                        <img src="icons/calender.svg" alt="">
+                        <p>Calendar</p>
+                    </div>
+
+                </div>
+
+             </section>
+
+             <!-- Subscribe -->
+             <section class="main-section subscribe flex col ">
+                    
+                <span class="graphics x top">
+                    <img src="graphics/x.svg" alt="">
+                </span>
+                    
+                <span class="graphics x bottom">
+                    <img src="graphics/x.svg" alt="">
+                </span>
+
+                <h2 class="blue">Subscribe To Our <span class="snap">NewsLetter</span></h2>
+
+                <form action="" class="flex">
+                    <input type="email" name="" id="" placeholder="Email" class="full-width elevate light low">
+
+                    <button type="submit" class="btn btn-blue elevate">Subscribe</button>
+                </form>
+
+             </section>
+
+             <!-- Our awesome workshops -->
+             <section class="main-section workshops flex col ">
+                    
+                <span class="graphics tube top">
+                    <img src="graphics/tube.svg" alt="">
+                </span>
+                    
+                <span class="graphics tube bottom">
+                    <img src="graphics/tube.svg" alt="">
+                </span>
+
+                <div class="heading-con flex col center">
+                    <h2>Our Awesome <span class="snap">Workshops In <span class="clr-blue">Your City</span></span></h2>
+                    <p class="contact">
+                        Waiting to hear from you Phone: +91 99084 96350, +91 86600 81352 Email: info@delightlearning.com
+                    </p>
+                </div>
+
+                <form action="" class="grid">
+                    <div class="select elevate light low">
+                        <select name="" id="">
+                            <option value="">Certified Scrum Master Workshops</option>
+                        </select>
+
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low">
+                        <select name="" id="">
+                            <option value="">Certified Scrum Product Owner Workshops</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+                    
+                    <div class="select elevate light low">
+                        <select name="" id="">
+                            <option value="">Certified SAFe Agilist (Leading SAFe) Workshops</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low">
+                        <select name="" id="">
+                            <option value="">PMI-PMP Certification Training</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low">
+                        <select name="" id="">
+                            <option value="">DevOps Master Certification Training</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low hide-workshop">
+                        <select name="" id="">
+                            <option value="">PMI-ACP Certification Training</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low hide-workshop">
+                        <select name="" id="">
+                            <option value="">PSM (Professional Scrum Master) Workshops</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low hide-workshop">
+                        <select name="" id="">
+                            <option value="">Certified Agile Coach Workshop (ICP-ACC)</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low hide-workshop">
+                        <select name="" id="">
+                            <option value="">PSPO (Professional Scrum Product Owner) Workshops</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                    <div class="select elevate light low hide-workshop">
+                        <select name="" id="">
+                            <option value="">Advanced Certified Scrum Master</option>
+                        </select>
+                        
+                        <span class="dropdown">&#x25BE;</span>
+                    </div>
+
+                </form>
+
+                <p class="see-more hide blue">See More</p>
+
+             </section>
+
+        </main>
+
+        <footer class="flex col center">
+
+            <section class="footer-links grid se">
+
+                <div class="link about">
+
+                    <h3>About us</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">About the Company</a></li>
+                            <li><a href="#">Clients</a></li>
+                            <li><a href="#">Customers Speak</a></li>
+                            <li><a href="#">Industry Membership / Accredition</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="link quick">
+
+                    <h3>Quick Links</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Pricipal</a></li>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">SiteMap</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="link partner">
+
+                    <h3>Partner With Us</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Become A Training Partner</a></li>
+                            <li><a href="#">Become An Instructor</a></li>
+                            <li><a href="#">Become An Affiliate</a></li>
+                            <li><a href="#">Blog As A Guest</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="link media">
+
+                    <h3>Follow us on</h3>
+                    <nav>
+                        <ul class="flex media-links">
+                            <li><a href="">
+                                <img src="icons/facebook.svg" alt="">
+                            </a></li>
+
+                            <li><a href="">
+                                <img src="icons/x-twitter.svg" alt="">
+                            </a></li>
+
+                            <li><a href="">
+                                <img src="icons/linkedin.svg" alt="">
+                            </a></li>
+
+                            <li><a href="">
+                                <img src="icons/google.svg" alt="">
+                            </a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </section>
+
+            <section class="footer-policy flex col end">
+
+                <nav>
+                    <ul class="policy flex center">
+                        <li><a href="">Refund / Reschedule</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+
+                <hr>
+
+                <div class="copyright flex col a-center">
+                    <p>
+                        &#169; 2013- 2022, Delight Learning Services and Consultancy. All Rights Reserved.
+                    </p>
+                    
+                    <p>
+                        The certification names are the trademarks of their respective owners. Disclaimer
+                    </p>
+                </div>
+            </section>
+
+        </footer>
+        
+    </div>
+    
+</body>
+</html>

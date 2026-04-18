@@ -1,0 +1,78 @@
+
+*:has( > .graphics){
+    position: relative;
+    
+    .graphics{
+        display: inline-block;
+        position: absolute;
+        container-type: size;
+
+        img{
+            width: 100cqw;
+        }
+
+        &.line{
+            width: var(--line-width);
+
+            &.top{
+                /* 
+                    Move up 80% of the object width. 
+                    Note: * -1 turns the value to a negative number 
+                */
+                top: calc((0.8 * var(--line-width)) * -1);
+
+                /* Move left 80% of the object width */
+                left: calc((0.8 * var(--line-width)) * -1);
+            }
+
+            &.bottom{
+                bottom: calc((1 * var(--line-width)) * -1);
+                right: calc((0.8 * var(--line-width)) * -1);
+                transform: rotateX(180deg) rotateY(180deg); 
+            }
+        }
+
+        &.circle{
+            width: var(--circle-width);
+            top: calc(0.2 * var(--circle-width));
+            right: calc(0.2 * var(--circle-width));
+        }
+
+        &.x{
+            width: var(--x-width);
+            aspect-ratio: 1;
+
+            &.top{
+                top: calc(1 * var(--x-width));
+                right: calc(1 * var(--x-width));
+            }
+
+            &.bottom{
+                bottom: calc(1 * var(--x-width));
+                left: calc(1 * var(--x-width));
+            }
+
+        }
+
+        &.tube{
+
+            &.top{
+                width: var(--tube-top-width);
+                aspect-ratio: 1;
+                top: calc(0.85 * var(--tube-top-width) * -1);
+                right: calc(0.65 * var(--tube-top-width) * -1);
+            }
+
+            &.bottom{
+                width: var(--tube-bottom-width);
+                aspect-ratio: 1;
+                bottom: calc(0.85 * var(--tube-bottom-width) * -1);
+                left: calc(0.65 * var(--tube-bottom-width) * -1);
+                transform: rotateX(180deg) rotateY(180deg);   
+            }
+
+        }
+
+    }
+
+}
