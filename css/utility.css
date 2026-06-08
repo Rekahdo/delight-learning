@@ -106,10 +106,6 @@ span.dropdown{
     
 }
 
-.hide{
-    display: none;
-}
-
 .select{
     background-color: var(--field-bg);
     display: flex;

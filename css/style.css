@@ -400,7 +400,7 @@ main .library{
     
     .categories{
         width: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
         grid-auto-rows: minmax(50px, auto);
         column-gap: 6rem;
         row-gap: 6rem;

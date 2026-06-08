@@ -13,7 +13,7 @@
 }
 
 /* Large Desktops */
-@media screen and (max-width: 1920px){
+@container container (max-width: 1920px){
 
     .indicator{
         background-color: green;
@@ -50,6 +50,16 @@
 
     main .upcoming .pagination-dots{
         display: flex;
+    }
+
+    main .library{
+        padding-inline: 3cqw;
+        
+        .categories{
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 3cqw;
+            row-gap: 3cqw;
+        }
     }
 
     main .workshops{
@@ -125,10 +135,10 @@
         }
         
         .categories{
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             grid-auto-rows: minmax(100px, auto);
             column-gap: var(--section-gap-tab);
             row-gap: var(--section-gap-tab);
+            grid-template-columns: repeat(2, minmax(300px, 1fr));
 
             .category{
                 padding-block: 3rem;
@@ -142,6 +152,10 @@
                 p{
                     font-size: 2rem;
                 }
+            }
+
+            > :last-child{
+                grid-column: span 2;
             }
         }
     }
@@ -255,7 +269,7 @@
     }
 
     .indicator{
-        background-color: rgb(151, 98, 0);
+        background-color: rgb(84, 54, 0);
     }
 
     header{
@@ -283,6 +297,7 @@
     }
 
     main .upcoming{
+        padding-block-end: 10cqw;
 
         .trainings{
             grid-template-columns: repeat(1, 80%);
@@ -293,11 +308,6 @@
                 padding-block: 3cqw;
             }
         }
-
-    }
-
-    main .upcoming{
-        padding-block-end: 10cqw;
         
         & .pagination-dots{
             display: none;
@@ -313,8 +323,11 @@
         
         .categories{
             grid-template-columns: repeat(1, 1fr);
-        }
 
+            > :last-child{
+                grid-column: span 1;
+            }
+        }
     }
 
     main .subscribe{
